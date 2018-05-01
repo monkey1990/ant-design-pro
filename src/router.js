@@ -25,7 +25,8 @@ function RouterConfig({ history, app }) {
           <AuthorizedRoute
             path="/"
             render={props => <BasicLayout {...props} />}
-            authority={['admin', 'user']}
+            // 取消路由用户权限检查--TianLin
+            // authority={['admin', 'user']}
             redirectPath="/user/login"
           />
         </Switch>

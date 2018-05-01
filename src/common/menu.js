@@ -37,7 +37,8 @@ const menuData = [
       },
       {
         name: '高级表单',
-        authority: 'admin',
+        // 取消用户权限检查--TianLin
+        // authority: 'admin',
         path: 'advanced-form',
       },
     ],
@@ -91,7 +92,8 @@ const menuData = [
       {
         name: '高级详情页',
         path: 'advanced',
-        authority: 'admin',
+        // 取消用户权限检查--TianLin
+        // authority: 'admin',
       },
     ],
   },
@@ -130,7 +132,7 @@ const menuData = [
       {
         name: '触发异常',
         path: 'trigger',
-        hideInMenu: true,
+        // hideInMenu: true,
       },
     ],
   },
@@ -138,7 +140,8 @@ const menuData = [
     name: '账户',
     icon: 'user',
     path: 'user',
-    authority: 'guest',
+    // 取消用户权限检查--TianLin
+    // authority: 'guest',
     children: [
       {
         name: '登录',
